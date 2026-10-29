@@ -1,0 +1,29 @@
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Runtime artifacts (traces, raw run outputs, model checkpoints)
+runs/
+outputs/
+checkpoints/
+*.safetensors
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
